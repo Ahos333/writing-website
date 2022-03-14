@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+import { Button } from '../Buttons/Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Writers newsletter to receive sample short stories and writing inspiration every day!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -45,11 +45,11 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Careers</h2>
+            <Link to='/'>Join the Team</Link>
+            <Link to='/'>Internships</Link>
+            <Link to='/'>Career Events</Link>
+            <Link to='/'></Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -64,11 +64,14 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              WRTE
+              <i class='fas fa-keyboard logo-icon' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>
+              Created by 
+              <a class="portfolio" href="https://ahos333.github.io/">Angelica Hoskins</a>
+          </small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

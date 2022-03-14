@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgb(53, 52, 52);
+    padding: 1rem;
+}
+
+.form-element {
+    
+}

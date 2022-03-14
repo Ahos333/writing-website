@@ -137,6 +137,17 @@
   margin-bottom: 16px;
 }
 
+.portfolio {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  color: #fff;
+  transition:cubic-bezier(1, 0, 0, 1);
+}
+
+.portfolio:hover {
+  color: #cfc9c9;
+}
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;

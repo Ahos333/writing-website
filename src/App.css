@@ -5,6 +5,10 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+body {
+  display: block !important;
+}
+
 .home,
 .services,
 .products,
@@ -14,6 +18,10 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.writing-board {
+  color: #000;
 }
 
 .services {
